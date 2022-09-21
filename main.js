@@ -6,7 +6,7 @@ const date1 = document.querySelector('#date1');
 const date2 = document.querySelector('#date2');
 const data = new Date();
 date1.innerHTML = data.getDate();
-date2.innerHTML = data.getMonth();
+date2.innerHTML = data.getMonth() + 1;
 date.innerHTML = data.getFullYear();
 console.log(data.getFullYear());
 
